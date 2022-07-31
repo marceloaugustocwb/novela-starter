@@ -1,7 +1,7 @@
 ---
 title: Marcelo Augusto
-bio: Pai, apaixonado por jogos! Espero escrever excelentes artigos para vocês!
-avatar: "/images/dennis-brotzky.jpg"
+bio: Pai, apaixonado por jogos e criado do Gamer For Gamer!
+avatar: "/images/img-20170401-wa0007.png"
 featured: true
 social: []
 
