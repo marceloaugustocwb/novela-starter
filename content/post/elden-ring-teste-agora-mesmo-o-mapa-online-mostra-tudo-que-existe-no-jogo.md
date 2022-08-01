@@ -1,6 +1,7 @@
 ---
 timeToRead: 3
-authors: []
+authors:
+- Marcelo Augusto
 title: 'Elden Ring: Teste agora mesmo o mapa online mostra tudo que existe no jogo'
 excerpt: Tudo que você precisa saber está aqui....
 date: 2022-08-01T00:00:00.000-03:00
