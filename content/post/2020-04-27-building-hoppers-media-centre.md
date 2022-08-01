@@ -4,8 +4,7 @@ date: 2022-07-31T06:28:38+00:00
 hero: "/images/mapa-interativo-elden-ring.webp"
 excerpt: Tudo que você precisa saber está aqui....
 timeToRead: 3
-authors:
-- Dennis Brotzky
+authors: []
 
 ---
 # Elden Ring: Teste agora mesmo o mapa online mostra tudo que existe no jogo
