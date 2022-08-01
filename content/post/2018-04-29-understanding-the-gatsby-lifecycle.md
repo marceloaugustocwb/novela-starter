@@ -1,182 +1,161 @@
 ---
-title: Understanding the Gatsby lifecycle and how it impacts yout developer experience
-date: 2018-04-29
-hero: /images/hero-2.jpg
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+title: As melhores armas de Elden Ring
+date: 2022-08-01T02:10:22-03:00
+hero: "/images/melhores-armas-do-elden-ring.jpg"
+excerpt: Veja a lista das melhores armas do Elden Ring
 timeToRead: 4
-authors:
-  - Dennis Brotzky
+authors: []
 
 ---
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+**Elden Ring** é um jogo maravilhoso, a exploração dentro do jogo é algo muito recompensador. Durante a sua exploração você pode encontrar as melhores armas do Elden Ring, e este artigo é um guia para que você possa desfrutar do jogo com um pouco mais de facilidade.
 
-At Narative, we’ve been fans of Gatsby from day one, using it to build performant and flexible products for both clients and ourselves. With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
-At Narative, we’ve been fans of Gatsby from day one, using it to build performant and flexible products for both clients and ourselves. With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+  
+Melhores armas do Elden Ring:
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+* Rios de Sangue
+* Presa do Cão de Caça
+* Espada Grande com Lâmina Enxertada
+* Espada Grande da Lua Sombria
+* Espada Grande das Ruínas
+* Véu da Lua
+* Espada Blasfema
+* Mandíbula de Fera da Estrela Cadente
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
+## Rios de Sangue
 
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
+Armas que causam efeitos de sangramento, como a katana, são muito poderosas no Elden Ring. O Rio de Sangue é uma espada oriental que, além de causar muito dano, pode ser comparada à força, agilidade e feitiços arcanos. Neste caso, os atributos Arcanos ajudam a aumentar a quantidade de sangramento causado ao inimigo.
 
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+A katana também possui uma habilidade única de Body Stacker. Ao usar esta habilidade, o personagem atacará várias vezes em rápida sucessão com a lâmina de sangue. Vale a pena mencionar que esses ataques têm um alcance maior do que um ataque de corte normal.
 
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
+  
+![](/images/elden-ring-melhores-armas-rios-de-sangue.webp)
 
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
+**Atributos necessários para usar a arma:**
 
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
+* **Força:** 12;
+* **Destreza:** 18;
+* **Arcano:** 20.
 
-This is another paragraph after the code block.
+### Localização da Katana Rios de Sangue:  
+  
+![](/images/elden-ring-katana-rios-de-sangue-localizacao.webp)
 
-## This is a secondary heading
+A Katana Rios de Sangue está localizada no topo das Montanhas dos Gigantes.
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
+Para chegar lá, basta seguir as instruções descritas abaixo.
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
+* Vá até o Grande Elevador de Rold.
+* Siga o caminho do nordeste.
+* Uma vez no Lago Congelante, siga diretamente para o sul.
+* Passe pelo Sepultura dos Gigantes e continue para o sul em direção ao Pé da Forja.
+* Siga o caminho do Pé da Forja até ver a Igreja do Repouso.
 
-At Narative, we’ve been fans of Gatsby from day one, using it to build performant and flexible products for both clients and ourselves. With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+Ao chegar na igreja, o Dedo Sangrento Okina aparecerá e tentará derrubá-lo com sua lâmina amaldiçoada. Se você conseguir vencê-lo em combate, o invasor derrubará as Rios de Sangue e a Máscara de Okina.
 
-In this article I’ll explain how Gatsby’s lifecycle works and what the Gatsby specific files are for.
+## Presa do Cão de Caça
 
-One of the challenges I had when learning Gatsby was trying to understand the Gatsby lifecycle. React introduced me to the concept of a Component Lifecycle, but when I started learning Gatsby I felt at a loss again. I remember looking through example repositories and seeing Gatsby specific files in every project and thinking to myself, “What are these files for? Why are gatsby-node.js, gatsby-browser.js, and gatsby-ssr.js generated in the default starter kit? Can I really delete these files?”
+Presa do Cão de Caça é uma das melhores armas que você encontrará no início da campanha Elden Ring. O dano deste facão só aumenta com força e destreza, e ainda sangra passivamente os inimigos.
 
-In this article I’ll explain the how Gatsby’s lifecycle works and what the Gatsby specific files are for.
+Além de suas boas habilidades de ataque, a lâmina tem a deliciosa habilidade especial de um cão de caça, perfeita para desviar dos inimigos. Ao usar esta habilidade, o personagem executa um backflip, seguido de um lunge. Durante a animação do movimento, é possível se tornar invencível.
 
-## How does Gatsby work?
+![](/images/elden-ring-melhores-armas-presa-do-cao-de-caca.webp)
 
-To understand what these files are for, we must first understand how Gatsby works. Gatsby is a static site generator that pulls data from sources you provide and generates a website/app for you.
+**Atributos necessários para usar a arma:**
 
-Gatsby requires Node to be installed to run the Bootstrap and Build sequences. Under the hood, Gatsby uses Webpack to build and start a development server amongst other things.
+* **Força:** 18;
+* **Destreza:** 17.
 
-### Step 1
+## Espada Grande com Lâmina Enxertada
 
-During the Bootstrap sequence, which occurs every time you run \$ gatsby develop, there are about 20 events that fire ranging from validating your gatsby-config.js to building the data schemas and pages for your site. For example, the Bootstrap sequence is where Gatsby will create pages. If you want an in depth look of all 20 Bootstrap steps Swyx shared a fantastic Gist that goes into more detail.
+![](/images/elden-ring-armas-lendarias-espada-grande-com-lamina-enxertada.webp)
 
-### Step 2
+Esta espada larga é uma das armas lendárias de **Elden Ring** e pode ser facilmente adquirida durante as primeiras horas do jogo. Uma espada grande com uma lâmina enxertada é um dos melhores equipamentos para personagens focados em ataques físicos e ataques pesados, pois seu dano aumenta com força e agilidade.
 
-The Build sequence is very similar to the Bootstrap sequence, except it’s run with production optimizations and will output static files ready for deployment. Think of it as building your React application in production mode vs development.
+Sua habilidade especial, **Juramento de Vingança** , é um feitiço que aumenta temporariamente todos os atributos do personagem, exceto o equilíbrio. Essa habilidade é útil contra chefes grandes que costumam abusar dos golpes que te derrubam.  
+  
+**Atributos necessários para usar a arma:**
 
-### Step 3
+* **Força:** 40;
+* **Destreza:** 14.
 
-And finally, once the generated files are deployed, Gatsby lives in the browser. Gatsby cleverly generates a static website that turns into a web app after initial load, which extends the lifecycle to the browser.
+##   
+Espada Grande da Lua Sombria
 
-What’s important to remember is that Gatsby’s lifecycle can be aggregated into 3 main sequences:
+![](/images/elden-ring-armas-lendarias-espada-grande-da-lua-sombria.webp)
 
-- Bootstrap
-- Build
-- Browser
-- These three sequences makeup the Gatsby lifecycle.
+Uma das armas lendárias do **Elden Ring**, a **Espada Grande da Lua Sombria** é um equipamento icônico que aparece com frequência nos jogos da FromSoftware. Uma grande gládio adequada para personagens que têm inteligência, força e destreza.
 
-Parts of the lifecycle are visible when running $ gatsby develop
-A peak into the Gatsby lifecycle when running $ gatsby develop
-A peak into the Gatsby lifecycle when running \$ gatsby develop
-If you’re familiar with React and the component lifecycle, Gatsby’s lifecycle is almost the same concept. Just like React’s lifecycle, Gatsby exposes hooks for developers to build on top of. Those lifecycle hooks are accessed through Gatsby specific files such as gatsby-node.js, gatsby-browser.js and gatsby-ssr.js.
+Sua habilidade especial, Moonlight Greatsword, aumenta o poder de ataque mágico do usuário e dá à lâmina um efeito de gelo. Ao usar um ataque de carga, a lâmina dispara uma explosão de luar no inimigo.  
+  
+**Atributos necessários para usar a arma:**
 
-What are the Gatsby specific files for?
-gatsby-config.js
-A place to put all your site configurations such as plugins, metadata, and polyfills. This file is the blueprint of your application and is where Gatsby really shines with its plugin system. When you run $ gatsby develop or $ gatsby build gatsby-config.js is the first file to be read and validated.
+* **Força:** 16;
+* **Destreza:** 11;
+* **Inteligência:** 38.
 
-Most of your time spent in gatsby-config.js will likely revolve around source plugins, image plugins, offline support, styling options, and site metadata.
+## Espada Grande das Ruínas
 
-gatsby-node.js
-Gatsby runs a Node process when you develop or build your website and uses Webpack under the hood to spin up a development server with hot reloading. During the Node process Gatsby will load plugins, check the cache, bootstrap the website, build the data schema, create pages, and deal with some configuration and data management.
+![](/images/elden-ring-armas-lendarias-espada-grande-das-ruinas.webp)
 
-Everything that occurs during the Bootstrap and Build sequences occurs in gatsby-node.js. This means it’s the perfect place to create pages dynamically based off data from a source plugin or modify Gatsby’s Webpack or Babel configs.
+A **Espada Grande das Ruínas** causa muito dano, enquanto destrói a postura dos maiores chefes de _Elden Ring_ com facilidade. Seu poder escala principalmente com força, mas é preciso investir alguns pontos em inteligência para equipar a arma.
 
-For example, if you want to move some files manually, such as a Netlify \_redirects file, a good place to do it is in your gatsby-node.js file at the onPostBuild lifecycle hook.
+A habilidade especial **Onda de Destruição** faz o personagem levantar a espada e golpear o chão em seguida. Feito isso, o ataque dispara uma onda de força gravitacional em uma linha reta. Além disso, todos os ataques carregados dessa arma criam pequenas explosões gravitacionais ao acertar o chão.  
+  
+A Espada Grande das Ruínas pode ser obtida como espólio ao derrotar o **Guerreiro Bastardo** e o **Cavaleiro do Crisol**, no Castelo da Juba Vermelha, em Caelid;
 
-From experience, most of my time has revolved around handling data and building pages in gatsby-node.js. This file quickly becomes the piping of your entire website.
+**Atributos necessários para usar a arma:**
 
-## Examples of gatsby-node.js hooks:
+* **Força:** 50;
+* **Inteligência:** 16.
 
-- createPages
-- onCreateBabelConfig
-- onCreateWebpackConfig
-- onPostBuild
-- gatsby-ssr.js
+## Véu da Lua  
+  
+![](/images/elden-ring-melhores-armas-veu-da-lua.webp)
 
-When you think Server Side Rendering you think of a server that takes in requests and dynamically builds pages and sends it to the client. Gatsby doesn’t do that, but it does server side render — it generates all the pages during build time.
+A **Véu da Lua** é uma katana que, além de causar hemorragia nos ataques comuns, permite ao usuário disparar cortes mágicos à distância. Ela se destaca entre as demais espadas orientais por causar dano que escala não só com destreza e força, como também com inteligência.
 
-Naturally, gatsby-ssr.js allows developers to hook into that lifecycle. In my experience, most use cases revolve around injecting CSS, HTML, or Redux state information into the generated output. For example, if you need to insert third party scripts such as Analytics Tracking or a Pixel it can be done on the onRenderBody gatsby-ssr.js hook.
+A habilidade especial **Luar Transiente** pode ser usada de duas formas. Primeiro, o personagem embainha a espada na cintura. Em seguida, ao performar um ataque normal, é possível disparar um corte mágico na horizontal. Se você executar um ataque forte, a onda de luz sairá na vertical.
 
-## Examples of gatsby-ssr.js hooks:
+**Atributos necessários para usar a arma:**
 
-- onPreRenderHTML
-- onRenderBody
-- replaceRenderer
-- gatsby-browser.js
+* **Força:** 12;
+* **Destreza:** 18;
+* **Inteligência:** 23.
 
-Gatsby is a static site that loads a dynamic application after initial load, which means you get the benefits of a static site in a web application. gatsby-browser.js provides convenient hooks to deal with app loading, route updates, service worker updates, scroll positioning, and more.
+## Espada Blasfema
 
-Everything that occurs after your static site has loaded can be hooked in gatsby-browser.js. For apps that I’ve built, gatsby-browser.js was mostly used for keeping track of routes, scroll positioning, and sending analytics events.
+![](/images/elden-ring-melhores-armas-espada-blasfema.webp)
 
-## Examples of gatsby-browser.js hooks:
+Uma das melhores espadas grandes de **Elden Ring**, a **Espada Blasfema** se destaca por recuperar a vida do usuário ao derrotar inimigos ou usar sua habilidade especial. Ela é indicada para personagens que conjuram encantamentos, pois seu dano escala com fé, além de força e destreza.
 
-- onClientEntry
-- onRouteUpdate
-- onServiceWorkerInstalled
-- registerServiceWorker
-- shouldUpdateScroll
+**Chamas do Saqueador** é o poder especial. Ao usar a habilidade, o personagem ergue a espada para incendiá-la com chamas. Em seguida, é disparada uma onda flamejante pelo chão. Qualquer inimigo tocado pelo fogo terá a vida drenada. Nas mãos certas, essa espada pode tornar o usuário imortal.
 
-## Conclusion
+**Atributos necessários para usar a arma:**
 
-Gatsby is built with React at its core and shares a common API pattern, the lifecycle. This lifecycle gives developers access to key moments in their website’s process through specific hooks. For example, adding analytics can be achieved through the Browser lifecycle hook onClientEntry. Gatsby reserves specific filenames as an entry point to access every lifecycle; these files are named gatsby-node.js, gatsby-ssr.js and gatsby-browser.js.
+* **Força:** 22;
+* **Destreza:** 15;
+* **Fé:** 21.
 
-Without the Gatsby lifecycle, it would be impossible to customize and modify your project beyond the base configuration, leaving developers with a rigid and poor developer experience. This power and flexibility has helped us build amazing web projects for clients like Hopper!
+Para conseguir a Espada Blasfema é preciso derrotar o chefe **Rykard, Lorde Blasfemo**, para obter a Lembrança do Não Conformista. Com a lembrança em mãos, você deve entregá-la para Enia, na Mesa da Graça Perdida, que te dará a arma
 
-Gatsby is a staple within our engineering process at Narative, helping us help our clients build the products they’ve always dreamed of, and the ones they’re yet to dream up.
+## Mandíbula de Fera da Estrela Cadente  
+  
+![](/images/elden-ring-melhores-armas-mandibula-de-fera-da-estrela-cadente.webp)
+
+Essa arma colossal é ideal para pessoas que amam armas pesadas, mas também querem utilizar alguns feitiços. Além de causar bastante dano que escala com força, destreza e inteligência, a **Mandíbula de Fera da Estrela Cadente** tem uma habilidade exclusiva que controla a gravidade.
+
+O poder **Raio da Gravidade** reveste a arma com eletricidade gravitacional e libera um raio na direção dos inimigos. É possível conjurar esse golpe várias vezes, já que o custo de mana e energia é baixo.
+
+**Atributos necessários para usar a arma:**
+
+* **Força:** 34;
+* **Destreza:** 12;
+* **Inteligência:** 20.
+
+A Mandíbula de Fera da Estrela Cadente é obtida como espólio ao derrotar a **Fera da Estrela Cadente Adulta** no Monte Gelmir, na região noroeste do Platô Atlus.
+
+  
+Essas são apenas algumas das melhores armas de **Elden Ring**. Vale mencionar que o jogo é vasto e permite inúmeras combinações de equipamentos em atributos.   
+  
+Parte deste texto foi retirada do site: [As melhores armas de Elden Ring - Tecnoblog](https://tecnoblog.net/responde/as-melhores-armas-de-elden-ring/#presa-do-cao-de-caca)
