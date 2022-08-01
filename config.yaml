@@ -6,6 +6,7 @@ metaDataFormat: yaml
 
 # Theme settings
 # theme: novela
+googleAnalytics: G-5XVQH6BL8G
 module:
   imports:
     - path: "github.com/forestryio/hugo-theme-novela"
