@@ -5,7 +5,6 @@ title: 'Elden Ring: Teste agora mesmo o mapa online mostra tudo que existe no jo
 excerpt: Tudo que você precisa saber está aqui....
 date: 2022-08-01T00:00:00-03:00
 hero: "/images/mapa-interativo-elden-ring.webp"
-draft: true
 
 ---
 # Elden Ring: Teste agora mesmo o mapa online mostra tudo que existe no jogo
