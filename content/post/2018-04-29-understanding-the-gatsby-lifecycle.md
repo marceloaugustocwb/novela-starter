@@ -3,7 +3,7 @@ title: As melhores armas de Elden Ring
 date: 2022-08-01T02:10:22-03:00
 hero: "/images/melhores-armas-do-elden-ring.jpg"
 excerpt: Veja a lista das melhores armas do Elden Ring
-timeToRead: 4
+timeToRead: 8
 authors: []
 
 ---
